@@ -1,0 +1,26 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+
+    #list{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #list>header{
+        margin: 20px;
+    }
+    nav{
+    display: none;
+}
+    #list>header>button{
+        display: none;
+    }
+    #list>main{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+
+}
